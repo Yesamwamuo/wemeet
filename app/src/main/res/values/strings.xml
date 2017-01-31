@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">We Meet</string>
+
+    <!--Navigation drawer actions-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!--Navigation drawer items-->
+    <string name="feed">Feed</string>
+    <string name="events">Events</string>
+    <string name="post">Post</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+    <string name="logOut">Logout</string>
+
+    <string name="user_company">Shixels Studios LTD</string>
+    <string name="user_role">Web Designer</string>
+    <string name="menu">MENU</string>
+    <string name="motto_text"><![CDATA[Meet new People, Family & Friends]]></string>
+    <string name="remember">Remember me</string>
+</resources>

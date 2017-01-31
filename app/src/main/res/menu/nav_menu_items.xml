@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_feed"
+        android:checkable="true"
+        android:icon="@drawable/feed"
+        android:title="@string/feed" />
+
+    <item
+        android:id="@+id/item_events"
+        android:checkable="true"
+        android:icon="@drawable/events"
+        android:title="@string/events" />
+
+    <item
+        android:id="@+id/item_post"
+        android:checkable="true"
+        android:icon="@drawable/post"
+        android:title="@string/post" />
+
+    <item
+        android:id="@+id/item_notifications"
+        android:checkable="true"
+        android:icon="@drawable/notifications"
+        android:title="@string/notifications" />
+
+    <item
+        android:id="@+id/item_account"
+        android:checkable="true"
+        android:icon="@drawable/account"
+        android:title="@string/account" />
+
+    <item
+        android:id="@+id/item_logout"
+        android:checkable="true"
+        android:icon="@drawable/logout"
+        android:title="@string/logOut" />
+
+
+</menu>
