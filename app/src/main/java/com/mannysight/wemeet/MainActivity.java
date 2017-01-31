@@ -58,9 +58,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Feed");
-//        toolbar.setTitle("Headlines");
-//        toolbar.inflateMenu(R.menu.menu_main);
-//        toolbar.setOnMenuItemClickListener(this);
     }
 
     private void setUpDrawer() {
@@ -78,8 +75,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-//        item.setCheckable(true);
-//        item.setChecked(true);  // This helps to know which Menu Item is Clicked
+
         hideDrawer();
         int id = 0;
         switch (item.getItemId()) {
@@ -107,10 +103,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 //set fragment
                 break;
         }
-//        Intent intent = new Intent(context, WebsiteFeed.class);
-//        intent.putExtra("image", Website.getImageId(id));
-//        intent.putExtra("Id", id);
-//        startActivity(intent);
+
         return true;
     }
 
